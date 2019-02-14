@@ -1,0 +1,148 @@
+body{
+  background-color: #8DDEEC;
+}
+
+h1{
+  color: #ffffff;
+}
+
+input{
+  height: 20px;
+  width: 70%;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+  outline: none;
+}
+
+p{
+  height: 20px;
+}
+
+.wrapper{
+  margin: auto;
+  width: 95%;
+  padding: 10px;
+}
+
+.form{
+  background-color: aliceblue;
+  color: #ffffff;
+  padding: 15px;
+  border: 2px solid #7989BB;
+  border-radius: 100px;
+  opacity: 0.8;
+  box-shadow: 3px 3px 7px #B0B0B0;
+}
+
+.info{
+  color: #ffffff;
+  margin: 10px;
+  font-size: 38px;
+}
+
+
+.infoLoad{
+  height: 20%;
+  display: inline-block;
+}
+
+.dayDivs{
+  height: 250px;  
+  display: inline-block;
+}
+
+.weatherInfo{
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 14px;
+  border: 2px solid #ffffff;
+  margin: 15px;
+  background: #7989BB;
+}
+
+.cityCountryText{
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.imageCondition{
+  margin: 10px;
+  width: 75px;
+  height: 75px; 
+  float:right;
+}
+.weatherInfoDay{
+  padding: 10px;
+}
+
+#cityName{
+  margin-left: 10px;
+}
+
+#countryName{
+  margin-left: 40px;
+}
+
+#firstDayDiv, #secondDayDiv, #thirdDayDiv, #forthDayDiv, #fifthDayDiv{
+  height: 100%;
+  display: inline-block;
+}
+
+#loadContainer{
+  padding-inline-start: 15px;
+  width: 35px;
+  height: 35px;
+}
+
+#buttonSearch, 
+#buttonSearch:active, 
+#buttonSearch:focus {
+    outline: none;
+}
+
+#buttonSearch {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FEF376), color-stop(1, #FAD321));
+	background:-moz-linear-gradient(top, #6894CA 5%, #FAD321 100%);
+	background:-webkit-linear-gradient(top, #6894CA 5%, #FAD321 100%);
+	background:-o-linear-gradient(top, #6894CA 5%, #FAD321 100%);
+	background:-ms-linear-gradient(top, #6894CA 5%, #FAD321 100%);
+	background:linear-gradient(to bottom, #6894CA 5%, #FAD321 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5121', endColorstr='#FAD321',GradientType=0);
+	background-color:#FAD321;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size: 18px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 0px 50px #854629;
+}
+#buttonSearch:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FAD321), color-stop(1, #FAD321));
+	background:-moz-linear-gradient(top, #6894CA 5%, #FEF376 100%);
+	background:-webkit-linear-gradient(top, #6894CA 5%, #FEF376 100%);
+	background:-o-linear-gradient(top, #6894CA 5%, #FEF376 100%);
+	background:-ms-linear-gradient(top, #6894CA 5%, #FEF376 100%);
+	background:linear-gradient(to bottom, #6894CA 5%, #FEF376 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAD321', endColorstr='#6894CA',GradientType=0);
+	background-color:#FAD321;
+}
+#buttonSearch:active {
+	position:relative;
+	top:1px;
+}

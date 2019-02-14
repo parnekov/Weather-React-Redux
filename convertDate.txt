@@ -1,0 +1,43 @@
+ constructor(props){
+        super(props);
+        this.convertDay = this.convertDay.bind(this);
+    }
+
+    convertDay = () => {
+    const weatherListStorage = localStorage.getItem('weather'); 
+    let weatherList = [];
+    if(weatherListStorage !== undefined){
+        weatherList = JSON.parse(weatherListStorage);
+    }
+
+    console.log(weatherList[0].date)
+    // var milliseconds = this.props.weather.date;
+    // console.log(milliseconds);
+    var date = Date(weatherList[2].date);
+    console.log(date);
+    // let day = date.getDate();
+    // console.log(day);
+    // let dayInWeek;
+
+    // switch (day) {
+    //     case 1: dayInWeek = "Понеділок"
+    //     break;
+    //     case 2: dayInWeek = "Вівторок"
+    //     break;
+    //     case 3: dayInWeek = "Середа"
+    //     break;
+    //     case 4: dayInWeek = "Четвер"
+    //     break;
+    //     case 5: dayInWeek = "П'ятниця"
+    //     break;
+    //     case 6: dayInWeek = "Субота"
+    //     break;
+    //     case 0: dayInWeek = "Неділя"
+    //     break;
+    //     default:
+    //         break;
+    // }
+    
+
+
+// console.log(this.props.weather.date);
