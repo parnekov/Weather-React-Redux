@@ -11,7 +11,7 @@ import { reducer } from './reducer';
 import * as actions  from './action';
 
 const store = createStore(reducer);
-const { dispatch } = store;  // замість store.dispatch()
+const { dispatch } = store; 
 const { getApi, getStorage } = bindActionCreators(actions, dispatch);
 
 
